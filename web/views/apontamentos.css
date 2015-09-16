@@ -1,0 +1,99 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 0px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.banner_lancamento {
+  color: #cdbfe3;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+  background-color: #cdbfe3;
+  background-image: -webkit-linear-gradient(top,#332941 0,#453361 100%);
+  background-image: -o-linear-gradient(top,#332941 0,#453361 100%);
+  background-image: linear-gradient(to bottom,#332941 0,#453361 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#563d7c', endColorstr='#6F5499', GradientType=0);
+  background-repeat: repeat-x;
+}
+
+/*
+Custom Table
+*/
+
+.table>tbody>tr.aprovado>td, 
+.table>tbody>tr.aprovado>th, 
+.table>tbody>tr>td.aprovado, 
+.table>tbody>tr>th.aprovado, 
+.table>tfoot>tr.aprovado>td, 
+.table>tfoot>tr.aprovado>th, 
+.table>tfoot>tr>td.aprovado, 
+.table>tfoot>tr>th.aprovado, 
+.table>thead>tr.aprovado>td, 
+.table>thead>tr.aprovado>th, 
+.table>thead>tr>td.aprovado, 
+.table>thead>tr>th.aprovado {
+  background-color: #dff0d8;
+}
+
+.table>tbody>tr.nao_avaliado>td, 
+.table>tbody>tr.nao_avaliado>th, 
+.table>tbody>tr>td.nao_avaliado, 
+.table>tbody>tr>th.nao_avaliado, 
+.table>tfoot>tr.nao_avaliado>td, 
+.table>tfoot>tr.nao_avaliado>th, 
+.table>tfoot>tr>td.nao_avaliado, 
+.table>tfoot>tr>th.nao_avaliado, 
+.table>thead>tr.nao_avaliado>td, 
+.table>thead>tr.nao_avaliado>th, 
+.table>thead>tr>td.nao_avaliado, 
+.table>thead>tr>th.nao_avaliado {
+  background-color: #fcf8e3;
+}
+
+.table>tbody>tr.reprovado>td, 
+.table>tbody>tr.reprovado>th, 
+.table>tbody>tr>td.reprovado, 
+.table>tbody>tr>th.reprovado, 
+.table>tfoot>tr.reprovado>td, 
+.table>tfoot>tr.reprovado>th, 
+.table>tfoot>tr>td.reprovado, 
+.table>tfoot>tr>th.reprovado, 
+.table>thead>tr.reprovado>td, 
+.table>thead>tr.reprovado>th, 
+.table>thead>tr>td.reprovado, 
+.table>thead>tr>th.reprovado {
+  background-color: #f2dede;
+}
